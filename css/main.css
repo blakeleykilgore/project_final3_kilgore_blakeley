@@ -23,3 +23,21 @@ body {
     background-image: url(../img/background.png);
     background-size: 100%;
 }
+
+#logo {
+    width: 100%;
+}
+
+header div {
+    display: inline-block;
+    width: 49%;
+    vertical-align: bottom;
+}
+
+header h1 {
+    margin: 0;
+    margin-bottom: 20%;
+    font-size: 10.5vw;
+    font-family: "veteran_typewriter";
+    color: #e9ddd1;
+}

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "harry_potter";
+    src: url(../fonts/harry_potter.ttf) format("truetype");
+}
+@font-face {
+    font-family: "harry_potter_7";
+    src: url(../fonts/harry_potter_7.ttf) format("truetype");
+}
+@font-face {
+    font-family: "lumos";
+    src: url(../fonts/lumos.ttf) format("truetype");
+}
+@font-face {
+    font-family: "overlock";
+    src: url(../fonts/overlock.ttf) format("truetype");
+}
+@font-face {
+    font-family: "veteran_typewriter";
+    src: url(../fonts/veteran_typewriter.ttf) format("truetype");
+}

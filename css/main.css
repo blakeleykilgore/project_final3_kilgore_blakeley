@@ -18,3 +18,8 @@
     font-family: "veteran_typewriter";
     src: url(../fonts/veteran_typewriter.ttf) format("truetype");
 }
+
+body {
+    background-image: url(../img/background.png);
+    background-size: 100%;
+}

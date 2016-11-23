@@ -104,4 +104,14 @@ nav ul li a {
 
 .main-content {
     background-image: url('../img/paper.png');
+    width: 80%;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.main-content h3 {
+    background-color: #97a993;
+    font-family: "harry_potter";
+    margin-left: -10%;
+    padding: 3% 0% 1% 3%;
 }

@@ -61,6 +61,11 @@ header h1 {
     color: #e9ddd1;
 }
 
+button {
+    border: none;
+    outline: none;
+}
+
 nav {
     padding: 5% 0%;
     text-align: center;
@@ -85,6 +90,10 @@ nav ul li:nth-child(odd) {
     -ms-transform: rotate(5deg);
     -webkit-transform: rotate(5deg);
     transform: rotate(5deg);
+}
+
+nav ul li:nth-child(1) {
+    margin-top: 10px;
 }
 
 nav ul li a {

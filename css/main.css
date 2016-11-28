@@ -138,3 +138,15 @@ nav ul li a {
 .hours {
     display: none;
 }
+
+.time {
+    padding-bottom: 10%;
+}
+
+.closed {
+    width: 90%;
+    margin: auto;
+    background-image: url('../img/closed.png');
+    background-size: 100%;
+    padding: 10% 0;
+}

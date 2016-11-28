@@ -126,3 +126,7 @@ nav ul li a {
     text-decoration: none;
     color: #596365;
 }
+
+.history {
+    display: none;
+}

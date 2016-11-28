@@ -134,3 +134,7 @@ nav ul li a {
 #map {
     height: 150px;
 }
+
+.hours {
+    display: none;
+}

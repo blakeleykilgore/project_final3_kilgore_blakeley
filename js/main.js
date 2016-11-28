@@ -3,6 +3,14 @@ $(document).ready(function () {
         $('nav ul').slideToggle('slow');
         $('.hamburger').toggleClass('is-active', 'add');
     });
+    var Now = new Date();
+    var CurrentDay = Now.getDay();
+    var OpeningTime = new Date(Now.getFullYear(), Now.getMonth(), Now.getDate(), 11, 0);
+    var ClosingTime = new Date(Now.getFullYear(), Now.getMonth(), Now.getDate(), 22, 0);
+    var Open = (Now.getTime() > OpeningTime.getTime() && Now.getTime() < ClosingTime.getTime());
+    if (CurrentDay !== 6 && CurrentDay !== 0 && Open) {
+        $('.openstatus').toggle();
+    }
 });
 
 function initMap() {

@@ -144,9 +144,19 @@ nav ul li a {
 }
 
 .closed {
-    width: 90%;
+    width: 80%;
     margin: auto;
     background-image: url('../img/closed.png');
     background-size: 100%;
-    padding: 10% 0;
+    padding: 8% 0;
+    color: #eadfd4;
+    font-size: 1.3em;
+    border-radius: 10px;
+    -ms-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+    transform: rotate(4deg);
+}
+
+.closed p {
+    font-family: "harry_potter_7";
 }

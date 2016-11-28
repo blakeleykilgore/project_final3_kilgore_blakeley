@@ -82,7 +82,16 @@
     </main>
     <footer>
         <img src="img/owl.png" alt="Owl" title="Owl Mail">
-        <h2>Whooo wants mail?</h2>
+        <div id="mail_form">
+            <h2 class="footer-title">Whooo wants mail?</h2>
+            <form action="">
+                <input type="text" name="firstname" value="First Name">
+                <input type="text" name="lastname" value="Last Name">
+                <input type="email" name="email" value="Your Email">
+                <input type="submit" value="Submit" class="submit">
+            </form>
+        </div>
+        <div class="clear"></div>
     </footer>
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHkZxaC4Z2ot_KV188smxcETxvZ99HhjY&callback=initMap"

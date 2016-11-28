@@ -130,3 +130,7 @@ nav ul li a {
 .history {
     display: none;
 }
+
+#map {
+    height: 150px;
+}

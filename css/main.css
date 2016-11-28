@@ -183,6 +183,18 @@ aside img {
     margin: 2% 10%;
 }
 
+footer {
+    background-color: #596365;
+}
+
 footer img {
     width: 30%;
+    float: left;
+}
+
+footer h2 {
+    padding: 6%;
+    color: #97a993;
+    text-align: center;
+    font-size: 1.2em;
 }

@@ -160,3 +160,20 @@ nav ul li a {
 .closed p {
     font-family: "harry_potter_7";
 }
+
+aside {
+    background-color: #311d25;
+    width: 80%;
+    margin: 5% auto;
+    padding-top: 5%;
+}
+
+aside h3 {
+    background-color: #a07d4b;
+    text-align: center;
+    font-family: "harry_potter";
+    padding: 3% 0% 0% 3%;
+    width: 80%;
+    margin: auto;
+    color: #311d25;
+}

@@ -177,3 +177,12 @@ aside h3 {
     margin: auto;
     color: #311d25;
 }
+
+aside img {
+    width: 80%;
+    margin: 2% 10%;
+}
+
+footer img {
+    width: 30%;
+}

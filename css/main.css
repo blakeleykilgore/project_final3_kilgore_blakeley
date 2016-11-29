@@ -111,6 +111,7 @@ nav ul li a {
     width: 80%;
     margin: auto;
     padding-top: 5%;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.6);
 }
 
 .main-content h3 {
@@ -170,6 +171,7 @@ aside {
     width: 80%;
     margin: 5% auto;
     padding-top: 5%;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.6);
 }
 
 .decsription {

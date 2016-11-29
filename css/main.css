@@ -148,6 +148,10 @@ nav ul li a {
     padding-bottom: 10%;
 }
 
+.time p {
+    text-align: center;
+}
+
 .closed {
     width: 80%;
     margin: auto;

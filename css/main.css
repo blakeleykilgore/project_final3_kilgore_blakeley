@@ -418,3 +418,7 @@ p.price {
 .show-sub-menu {
     display: block;
 }
+
+.dropdown-description img {
+    width: 80%;
+}

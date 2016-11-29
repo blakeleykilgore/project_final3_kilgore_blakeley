@@ -11,6 +11,11 @@ $(document).ready(function () {
     if (CurrentDay !== 6 && CurrentDay !== 0 && Open) {
         $('.openstatus').toggle();
     }
+    $('.dropdown').click(function () {
+        $(this).children().toggleClass('show-sub-menu');
+        $(this).siblings().children().removeClass('show-sub-menu');
+        // $(this).children().slideDown('slow');
+    });
 });
 
 function initMap() {

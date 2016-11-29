@@ -402,3 +402,19 @@ p.price {
 .news img:first-of-type {
     margin-top: 5%;
 }
+
+/* Menu Page */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+}
+
+.show-sub-menu {
+    display: block;
+}

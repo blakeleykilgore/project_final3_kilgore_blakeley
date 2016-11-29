@@ -349,3 +349,23 @@ section.main-content.history {
 }
 
 /* Prootions Page */
+.promotions article {
+    margin-bottom: 10%;
+}
+
+.promotions article:first-of-type {
+    margin-top: 5%;
+}
+
+.promotions article img {
+    width: 100%;
+}
+
+.promotions article h3 {
+    background-color: #596365;
+    text-align: center;
+    font-family: "harry_potter";
+    margin: 0;
+    color: #97a993;
+    padding: 5% 0 3% 0;
+}

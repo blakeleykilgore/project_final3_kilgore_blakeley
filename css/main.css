@@ -122,7 +122,8 @@ nav ul li a {
     padding-bottom: 20%;
 }
 
-.main-content h3 {
+.main-content h3,
+.main-content h2 {
     background-color: #97a993;
     font-family: "harry_potter";
     margin-left: -10%;
@@ -287,4 +288,20 @@ input {
     border-radius: 5px;
     color: #596365;
     font-family: "harry_potter_7";
+}
+
+/* Location Page */
+main.main-content.location {
+    padding: 0;
+    margin-top: 5%;
+}
+
+.location article {
+    padding-bottom: 5%;
+    margin-bottom: 15%;
+}
+
+.main-content h2 {
+    margin: 0;
+    text-align: center;
 }

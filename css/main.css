@@ -172,6 +172,12 @@ article.location {
     font-family: "harry_potter_7";
 }
 
+.overlock {
+    font-family: "overlock";
+    color: #4b3131;
+    font-size: 2em;
+}
+
 .closed {
     width: 80%;
     margin: auto;

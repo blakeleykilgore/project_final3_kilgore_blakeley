@@ -370,3 +370,35 @@ p.price {
     text-align: center;
     font-family: "harry_potter";
 }
+
+/* News Page */
+.news section {
+    background-color: rgba(35, 33, 33, 0.8);
+    padding-bottom: 3%;
+    margin-bottom: 5%;
+}
+.news h2 {
+    text-align: center;
+    font-family: "harry_potter";
+    color: #97a993;
+    margin-bottom: 0;
+    padding: 5% 0 3% 0;
+    background-color: #596365;
+}
+
+#news-ticker {
+    background-color: #4b3131;
+    padding: 10% 0;
+    color: #a07d4b;
+}
+
+.news img {
+    display: block;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.news img:first-of-type {
+    margin-top: 5%;
+}

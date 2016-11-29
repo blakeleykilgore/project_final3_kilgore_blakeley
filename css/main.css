@@ -114,12 +114,17 @@ nav ul li a {
     box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.6);
 }
 
+.main-content article {
+    padding-bottom: 20%;
+}
+
 .main-content h3 {
     background-color: #97a993;
     font-family: "harry_potter";
     margin-left: -10%;
     padding: 3% 0% 1% 3%;
     color: #311d25;
+    margin-bottom: 0;
 }
 
 .main-content p {
@@ -140,16 +145,23 @@ nav ul li a {
     height: 150px;
 }
 
+.location p:first-of-type {
+    text-align: center;
+    font-family: "harry_potter_7";
+}
+
 .hours {
     display: none;
 }
 
 .time {
     padding-bottom: 10%;
+
 }
 
 .time p {
     text-align: center;
+    font-family: "harry_potter_7";
 }
 
 .closed {
@@ -164,10 +176,7 @@ nav ul li a {
     -ms-transform: rotate(4deg);
     -webkit-transform: rotate(4deg);
     transform: rotate(4deg);
-}
-
-.closed p {
-    font-family: "harry_potter_7";
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
 }
 
 aside {

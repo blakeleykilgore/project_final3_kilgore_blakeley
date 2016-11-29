@@ -141,6 +141,10 @@ nav ul li a {
     display: none;
 }
 
+article.location {
+    padding-bottom: 5%;
+}
+
 #map {
     height: 150px;
 }

@@ -142,7 +142,7 @@ nav ul li a {
     color: #596365;
 }
 
-.history {
+.history-index {
     display: none;
 }
 
@@ -304,4 +304,46 @@ main.main-content.location {
 .main-content h2 {
     margin: 0;
     text-align: center;
+}
+
+/* History Page */
+section.main-content.history {
+    padding: 0;
+    margin-top: 5%;
+}
+
+.history article {
+    padding-bottom: 3%;
+}
+
+.history article h2 {
+    background-color: #311d25;
+    color: #97a993;
+}
+
+.history-images {
+    background-color: rgba(49, 29, 37, 0.7);
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10%;
+    padding: 3% 0;
+}
+
+.history-images img {
+    width: 90%;
+    display: block;
+    margin: 9% auto;
+    box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+.history-images img:first-of-type {
+    -ms-transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+
+.history-images img:last-of-type {
+    -ms-transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+    transform: rotate(-2deg);
 }

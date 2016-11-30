@@ -1,8 +1,11 @@
+// document ready
 $(document).ready(function () {
+    // hamburger menu
     $('.hamburger').click(function () {
         $('nav ul').slideToggle('slow');
         $('.hamburger').toggleClass('is-active', 'add');
     });
+    // open sign status
     var Now = new Date();
     var CurrentDay = Now.getDay();
     var OpeningTime = new Date(Now.getFullYear(), Now.getMonth(), Now.getDate(), 11, 0);
@@ -11,6 +14,7 @@ $(document).ready(function () {
     if (CurrentDay !== 6 && CurrentDay !== 0 && Open) {
         $('.openstatus').toggle();
     }
+    // restaurant menu dropdown
     $('.dropdown').click(function () {
         $(this).children().toggleClass('show-sub-menu');
         $(this).siblings().children().removeClass('show-sub-menu');
@@ -18,6 +22,7 @@ $(document).ready(function () {
     });
 });
 
+// Google Map
 function initMap() {
         // Styles a map in night mode.
     var map = new google.maps.Map(document.getElementById('map'), {

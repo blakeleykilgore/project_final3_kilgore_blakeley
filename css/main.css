@@ -463,3 +463,42 @@ p.price {
         font-size: 1.2em;
     }
 }
+
+@media (min-width: 700px) {
+    nav ul li:nth-child(1) {
+        margin-top: 25px;
+    }
+    #map {
+        height: 250px;
+    }
+    h3 {
+        font-size: 2.8em;
+    }
+    article p,
+    .footer-title {
+        font-size: 2em;
+    }
+    .location h2,
+    .history h2,
+    .news h2 {
+        font-size: 2.5em;
+    }
+    .dropdown li {
+        font-size: 2em;
+    }
+    .dropdown-description p {
+        font-size: 2em;
+    }
+    .promotions h4 {
+        font-size: 2em;
+    }
+    p.price {
+        font-size: 3em;
+    }
+    .news img {
+        width: 60%;
+    }
+    footer img {
+        padding-top: 3%;
+    }
+}

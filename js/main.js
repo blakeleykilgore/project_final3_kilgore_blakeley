@@ -24,7 +24,7 @@ $(document).ready(function () {
 
 // Google Map
 function initMap() {
-        // Styles a map in night mode.
+    // Styles a map in night mode.
     var map = new google.maps.Map(document.getElementById('map'), {
         center: {lat: 28.479717, lng: -81.469619},
         zoom: 12,

@@ -452,3 +452,14 @@ p.price {
 .dropdown-description p {
     color: #4b3131;
 }
+
+/* Media Queries Medium */
+@media (min-width: 450px) {
+    h3 {
+        font-size: 1.8em;
+    }
+    article p,
+    .footer-title {
+        font-size: 1.2em;
+    }
+}

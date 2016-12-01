@@ -290,12 +290,12 @@ input {
 }
 
 /* Location Page */
-main.main-content.location {
+main.main-content.location-page {
     padding: 0;
     margin-top: 5%;
 }
 
-.location article {
+.location-page article {
     padding-bottom: 5%;
     margin-bottom: 15%;
 }

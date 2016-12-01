@@ -582,7 +582,10 @@ p.price {
     .location {
         width: 43%;
         float: left;
-        margin-left: 7%;
+        margin-left: 3%;
+    }
+    .location h3 {
+        margin-left: 0;
     }
     .time {
         width: 45%;
@@ -609,7 +612,8 @@ p.price {
         font-size: 1.9em;
     }
     #map {
-        height: 350px;
+        height: 400px;
+        padding: 0;
     }
     .location-page p {
         text-align: center;

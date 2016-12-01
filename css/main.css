@@ -654,6 +654,17 @@ p.price {
     .news img:first-of-type {
         margin-top: 0;
     }
+    footer img {
+        width: 18%;
+        margin-left: 15%;
+    }
+    #mail_form {
+        width: 50%;
+        margin-right: 10%;
+    }
+    input {
+        padding: 1%;
+    }
 }
 
 @media (min-width: 2200px) {

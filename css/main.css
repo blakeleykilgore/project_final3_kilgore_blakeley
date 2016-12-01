@@ -567,8 +567,27 @@ p.price {
         display: block;
         padding-bottom: 0;
     }
+    .history-index h3 {
+        margin-left: 0;
+    }
     article.history-index p {
         font-size: 1.7em;
+    }
+    .location {
+        width: 43%;
+        float: left;
+        margin-left: 7%;
+    }
+    .time {
+        width: 45%;
+        float: right;
+        margin-right: 4%;
+    }
+    .time h3 {
+        text-align: right;
+        margin-left: 3%;
+        margin-right: -1%;
+        padding-right: 6%;
     }
     aside,
     .history-images {

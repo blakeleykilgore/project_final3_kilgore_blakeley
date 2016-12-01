@@ -563,6 +563,13 @@ p.price {
         margin: auto;
         margin-bottom: 5%;
     }
+    article.history-index {
+        display: block;
+        padding-bottom: 0;
+    }
+    article.history-index p {
+        font-size: 1.7em;
+    }
     aside,
     .history-images {
         width: 34%;

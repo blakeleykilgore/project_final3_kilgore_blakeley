@@ -594,6 +594,15 @@ p.price {
         width: 34%;
         flex: auto;
     }
+    aside article h3 {
+        margin: 0;
+        text-align: center;
+        margin-top: 1em;
+        font-size: 2em;
+    }
+    article p {
+        font-size: 1.3em;
+    }
     #map {
         height: 350px;
     }

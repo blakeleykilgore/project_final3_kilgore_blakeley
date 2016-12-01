@@ -622,6 +622,13 @@ p.price {
         width: 64%;
         flex: auto;
     }
+    .history {
+        margin: 0;
+    }
+    .history-images {
+        margin: 5% auto;
+        margin-top: 10%;
+    }
     .news img,
     .promotions article {
         width: 30%;

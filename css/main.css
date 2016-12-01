@@ -563,4 +563,27 @@ p.price {
         margin: auto;
         margin-bottom: 5%;
     }
+    aside,
+    .history-images {
+        width: 34%;
+        flex: auto;
+    }
+    .main-content,
+    .history {
+        width: 64%;
+        flex: auto;
+    }
+    .news img,
+    .promotions article {
+        width: 30%;
+        margin: 0 auto;
+        flex: auto;
+        padding: 0;
+    }
+    .promotions article:first-of-type {
+        margin-top: 0;
+    }
+    .news img:first-of-type {
+        margin-top: 0;
+    }
 }

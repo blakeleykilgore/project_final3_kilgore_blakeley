@@ -644,19 +644,13 @@ p.price {
     .news img,
     .promotions article {
         width: 30%;
-        margin: 0 auto;
+        margin: 5% 2%;
         flex: auto;
         padding: 0;
     }
     .news h2 {
         font-size: 3em;
         padding: 2% 0;
-    }
-    .promotions article:first-of-type {
-        margin-top: 0;
-    }
-    .news img:first-of-type {
-        margin-top: 0;
     }
     footer img {
         width: 18%;

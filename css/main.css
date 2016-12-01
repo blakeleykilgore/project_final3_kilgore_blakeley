@@ -346,6 +346,7 @@ section.main-content.history {
 /* Prootions Page */
 .promotions {
     width: 80%;
+    margin: auto;
 }
 
 .promotions article {

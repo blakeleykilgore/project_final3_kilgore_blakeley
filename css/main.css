@@ -568,6 +568,20 @@ p.price {
         width: 34%;
         flex: auto;
     }
+    #map {
+        height: 350px;
+    }
+    .location-page p {
+        text-align: center;
+        padding: 2% 0;
+        width: 60%;
+        margin: auto;
+        font-size: 2em;
+    }
+    .location-page p:first-of-type {
+        margin-top: 5%;
+        font-size: 2.3em;
+    }
     .main-content,
     .history {
         width: 64%;

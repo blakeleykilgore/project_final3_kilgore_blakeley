@@ -348,6 +348,11 @@ section.main-content.history {
 }
 
 /* Promotions Page */
+.promotions {
+    width: 80%;
+    margin: auto;
+}
+
 .promotions article {
     margin-bottom: 10%;
 }

@@ -557,6 +557,9 @@ p.price {
 }
 
 @media (min-width: 1050px) {
+    main {
+        margin: auto;
+    }
     .flex-wrap {
         width: 96%;
         display: flex;
@@ -628,6 +631,9 @@ p.price {
     .history-images {
         margin: 5% auto;
         margin-top: 10%;
+    }
+    .promotions {
+        margin: auto;
     }
     .news img,
     .promotions article {

@@ -639,12 +639,12 @@ p.price {
         margin-top: 10%;
     }
     .promotions {
+        width: 95%;
         margin: auto;
     }
     .news img,
     .promotions article {
-        width: 30%;
-        margin: 5% 2%;
+        margin: 5% 1%;
         flex: auto;
         padding: 0;
     }

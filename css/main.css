@@ -35,10 +35,6 @@ body {
     font-family: "overlock";
 }
 
-main {
-    max-width: 1550px;
-}
-
 /* Header */
 #logo {
     width: 100%;
@@ -563,10 +559,11 @@ p.price {
 
 @media (min-width: 1050px) {
     main {
+        width: 80%;
         margin: auto;
     }
     .flex-wrap {
-        width: 96%;
+        width: 90%;
         display: flex;
         margin: auto;
         margin-bottom: 5%;
@@ -578,8 +575,9 @@ p.price {
     .history-index h3 {
         margin-left: 0;
     }
-    article.history-index p {
-        font-size: 1.7em;
+    article.history-index p,
+    .history article p, {
+        font-size: 2.6em;
     }
     .location {
         width: 43%;
@@ -606,10 +604,9 @@ p.price {
         margin: 0;
         text-align: center;
         margin-top: 1em;
-        font-size: 2em;
     }
     aside article p {
-        font-size: 1.3em;
+        font-size: 1.9em;
     }
     #map {
         height: 350px;
@@ -647,10 +644,25 @@ p.price {
         flex: auto;
         padding: 0;
     }
+    .news h2 {
+        font-size: 3em;
+        padding: 2% 0;
+    }
     .promotions article:first-of-type {
         margin-top: 0;
     }
     .news img:first-of-type {
         margin-top: 0;
+    }
+}
+
+@media (min-width: 2200px) {
+    .main-content p {
+        width: 80%;
+        margin: auto;
+        font-size: 2.4em;
+    }
+    section.promotions article p:last-of-type {
+        font-size: 2.2em;
     }
 }

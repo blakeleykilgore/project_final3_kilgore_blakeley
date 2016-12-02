@@ -491,11 +491,11 @@ p.price {
         height: 250px;
     }
     h3 {
-        font-size: 2.8em;
+        font-size: 1.7em;
     }
     article p,
     .footer-title {
-        font-size: 2em;
+        font-size: 1.8em;
     }
     .location h2,
     .history h2,
@@ -509,10 +509,10 @@ p.price {
         font-size: 2em;
     }
     .promotions h4 {
-        font-size: 2em;
+        font-size: 1.5em;
     }
     p.price {
-        font-size: 3em;
+        font-size: 2em;
     }
     .news img {
         width: 60%;
@@ -576,7 +576,7 @@ p.price {
         margin: auto;
     }
     .flex-wrap {
-        width: 90%;
+        width: 85%;
         display: flex;
         margin: auto;
         margin-bottom: 5%;
@@ -600,6 +600,9 @@ p.price {
     .location h3 {
         margin-left: 0;
     }
+    .directions {
+        font-size: 1.3em;
+    }
     .time {
         width: 45%;
         float: right;
@@ -622,7 +625,7 @@ p.price {
         margin-top: 1em;
     }
     aside article p {
-        font-size: 1.9em;
+        font-size: 1.6em;
     }
     #map {
         height: 400px;

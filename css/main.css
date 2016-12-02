@@ -419,14 +419,19 @@ p.price {
     display: block;
 }
 
-.dropdown-description img {
-    width: 80%;
-}
-
 .menu {
     text-align: center;
     background-color: #4b3131;
     color: #ece2d8;
+    width: 80%;
+    margin: auto;
+}
+
+.menu h2 {
+    font-family: "harry_potter";
+    font-size: 2em;
+    padding: 3%;
+    background-color: #596365;
 }
 
 .menu ul {
@@ -435,20 +440,28 @@ p.price {
 }
 
 .menu ul li {
-    padding: 5% 0;
+    padding: 5%;
     font-family: "harry_potter_7";
 }
 
 .dropdown-content li {
-    padding: 0 0 5% 0;
+    padding: 5%;
     color: #596365;
     font-family: "harry_potter_7";
 }
 
 .dropdown-description {
     padding-bottom: 3%;
+    border-bottom: 1px solid #4b3131;
+}
+
+.dropdown-description img {
+    width: 55%;
 }
 
 .dropdown-description p {
     color: #4b3131;
+    width: 65%;
+    margin: auto;
+    margin-top: 1%;
 }

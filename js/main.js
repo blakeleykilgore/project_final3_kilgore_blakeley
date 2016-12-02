@@ -22,6 +22,8 @@ $(document).ready(function () {
     });
     // add animation to all elements
     $('*').addClass('w3-animate-bottom');
+    // start news ticker plugin
+    $("#example").newsTicker();
 });
 // custom javascript code for thank you on form submission
 var form = document.getElementsByTagName('form')[0];

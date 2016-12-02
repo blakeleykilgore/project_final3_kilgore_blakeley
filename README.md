@@ -2,7 +2,7 @@
 
 ##Link to GitHub Repo: https://github.com/blakeleykilgore/project_final3_kilgore_blakeley
 ##Link to host: http://www.blakeleykilgore.com/fall2016/project_final3_kilgore_blakeley/index.html
-##Link to validator:
+##Link to validator: https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.blakeleykilgore.com%2Ffall2016%2Fproject_final3_kilgore_blakeley%2F
 ##Link to outliner: https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwww.blakeleykilgore.com%2Ffall2016%2Fproject_final3_kilgore_blakeley
 
 ###Resources:

@@ -406,12 +406,6 @@ p.price {
     background-color: #596365;
 }
 
-#news-ticker {
-    background-color: #4b3131;
-    padding: 10% 0;
-    color: #a07d4b;
-}
-
 .news img {
     display: block;
     width: 70%;
@@ -422,32 +416,45 @@ p.price {
 .news img:first-of-type {
     margin-top: 5%;
 }
+
 .TickerNews {
-	  width: 100%;
-	  height: 50px;
-	  line-height: 50px;
-	}
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(49, 29, 37, 0.8);
+    padding: 5% 0 6% 0;
+    font-size: 3em;
+    color: #a07d4b;
+}
 
-	.ti_wrapper {
-	  width: 100%;
-	  position: relative;
-	  overflow: hidden;
-	  height: 50px;
-	}
+.TickerNews a {
+    text-decoration: none;
+    cursor: default;
+}
 
-	.ti_slide {
-	  width: 30000px;
-	  position: relative;
-	  left: 0;
-	  top: 0;
-	}
+.ti_wrapper {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+}
 
-	.ti_content {
-	  width: 8000px;
-	  position: relative;
-	  float: left;
-	}
-	.ti_news { float: left; }
+.ti_slide {
+    width: 30000px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.ti_content {
+    width: 8000px;
+    position: relative;
+    float: left;
+}
+
+.ti_news {
+    float: left;
+}
 
 /* Menu Page */
 .dropdown {

@@ -33,8 +33,10 @@ $(document).ready(function () {
         lb.close();
     }, 3000);
 });
-// start news ticker plugin
-$('#example').newsTicker();
+$(document).ready(function () {
+    // start news ticker plugin
+    $('#example').newsTicker();
+});
 // custom javascript code for thank you on form submission
 var form = document.getElementsByTagName('form')[0];
 form.addEventListener('submit', function (event) {

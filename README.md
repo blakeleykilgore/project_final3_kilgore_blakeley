@@ -10,8 +10,8 @@
 *https://jonsuh.com/hamburgers/#usage for the hamburger menu
 *http://stackoverflow.com/questions/28835495/jquery-show-hide-div-depending-on-day-and-time for the open status
 *https://touringplans.com/universal-studios-florida/dining/leaky-cauldron/menus/lunch-and-dinner-menu for the content
-*http://www.jqueryscript.net/animation/Infinite-News-Ticker-Plugin-with-jQuery-tickerNews.html for the news ticker
-*http://stackoverflow.com/questions/5860649/jquery-addclass-to-all-elements-with-class add class to all elements
+*http://www.jqueryscript.net/animation/Infinite-News-Ticker-Plugin-with-jQuery-tickerNews.html for the news ticker found on the news page
+*http://stackoverflow.com/questions/5860649/jquery-addclass-to-all-elements-with-class add class to all elements to add fade in effect
 *http://www.w3schools.com/w3css/w3css_animate.asp for the fade in effect
 *http://www.jqueryscript.net/loading/Minimalist-Loading-Overlay-Plugin-For-jQuery-LoadingBox.html for the loading screen
 

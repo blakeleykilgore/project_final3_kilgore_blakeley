@@ -22,8 +22,18 @@ $(document).ready(function () {
     });
     // add animation to all elements
     $('*').addClass('w3-animate-bottom');
+    // loading screen plugin
+    var lb = new $.LoadingBox({
+        opacity: 0.5,
+        loadingImageWitdth: '40%',
+        loadingImageHeigth: 'auto',
+        loadingImageSrc: 'img/loading.gif'
+    });
+    setTimeout(function () {
+        lb.close();
+    }, 3000);
     // start news ticker plugin
-    $("#example").newsTicker();
+    $('#example').newsTicker();
 });
 // custom javascript code for thank you on form submission
 var form = document.getElementsByTagName('form')[0];

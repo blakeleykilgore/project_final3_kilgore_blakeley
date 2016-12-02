@@ -204,6 +204,7 @@ aside {
 .decsription {
     background-color: rgba(234, 223, 211, 0.8);
     padding: 5%;
+    height: 100%;
 }
 
 aside h3 {
@@ -351,6 +352,8 @@ section.main-content.history {
 
 .promotions article {
     margin-bottom: 10%;
+    overflow: hidden;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.6);
 }
 
 .promotions article:first-of-type {

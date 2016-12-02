@@ -419,11 +419,11 @@ p.price {
 
 .TickerNews {
     width: 100%;
-    height: 50px;
+    height: auto;
     line-height: 50px;
     background-color: rgba(49, 29, 37, 0.8);
-    padding: 5% 0 6% 0;
-    font-size: 3em;
+    padding: 5% 0 7% 0;
+    font-size: 2em;
     color: #a07d4b;
 }
 

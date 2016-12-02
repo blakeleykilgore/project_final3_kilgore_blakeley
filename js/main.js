@@ -20,6 +20,8 @@ $(document).ready(function () {
         $(this).siblings().children().removeClass('show-sub-menu');
         // $(this).children().slideDown('slow');
     });
+    // add animation to all elements
+    $('*').addClass('w3-animate-bottom');
 });
 // custom javascript code for thank you on form submission
 var form = document.getElementsByTagName('form')[0];

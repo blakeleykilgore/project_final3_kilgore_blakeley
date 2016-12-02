@@ -654,6 +654,17 @@ p.price {
         margin: 5% auto;
         margin-top: 10%;
     }
+    .restaurant-menu-item-left {
+        width: 49%;
+        float: left;
+    }
+    .restaurant-menu-item-right {
+        width: 49%;
+        float: right;
+    }
+    .dropdown-description {
+        border: 0;
+    }
     .promotions {
         width: 95%;
         margin: auto;

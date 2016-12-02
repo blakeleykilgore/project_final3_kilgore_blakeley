@@ -669,7 +669,6 @@ p.price {
         width: 95%;
         margin: auto;
     }
-    .news img,
     .promotions article {
         margin: 5% 1%;
         flex: auto;
@@ -678,6 +677,14 @@ p.price {
     .news h2 {
         font-size: 3em;
         padding: 2% 0;
+    }
+    .news-images img {
+        width: 30%;
+        display: inline;
+        margin: 1%;
+    }
+    .news-images img:first-of-type {
+        margin-left: 3%;
     }
     footer img {
         width: 18%;

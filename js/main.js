@@ -26,10 +26,10 @@ var form = document.getElementsByTagName('form')[0];
 form.addEventListener('submit', function (event) {
     event.preventDefault();
     var paragraph = document.createElement('p');
-    paragraph.classList.add('thanks');
+    paragraph.classList.add('thanks', 'w3-animate-bottom');
     if (document.getElementsByClassName('thanks').length < 1) {
-        paragraph.innerHTML = '<p>Yay! You submitted!</p>';
-        document.getElementsByTagName('footer')[0].appendChild(paragraph);
+        paragraph.innerHTML = '<p>Your Owl will Arrive Soon!</p>';
+        document.getElementsByTagName('footer')[0].prepend(paragraph);
     }
 });
 // Google Map

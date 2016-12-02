@@ -14,14 +14,24 @@ $(document).ready(function () {
     if (CurrentDay !== 6 && CurrentDay !== 0 && Open) {
         $('.openstatus').toggle();
     }
-    // restaurant menu dropdown
+    // custom jquery code restaurant menu dropdown
     $('.dropdown').click(function () {
         $(this).children().toggleClass('show-sub-menu');
         $(this).siblings().children().removeClass('show-sub-menu');
         // $(this).children().slideDown('slow');
     });
 });
-
+// custom javascript code for thank you on form submission
+var form = document.getElementsByTagName('form')[0];
+form.addEventListener('submit', function (event) {
+    event.preventDefault();
+    var paragraph = document.createElement('p');
+    paragraph.classList.add('thanks');
+    if (document.getElementsByClassName('thanks').length < 1) {
+        paragraph.innerHTML = '<p>Yay! You submitted!</p>';
+        document.getElementsByTagName('footer')[0].appendChild(paragraph);
+    }
+});
 // Google Map
 function initMap() {
     // Styles a map in night mode.
